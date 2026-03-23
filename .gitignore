@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Model Weights (Too large for GitHub)
+*.pth
+*.pt
+ai_capstone_pytorch_best_model.pth
+true_best_model.pth
+
+# Massive Datasets
+images_dataSAT/
+images-dataSAT.tar
+Test_Images_For_Presentation/
+data/
+notebooks/
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# Configs
+.idea/
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# --- IBM Coursework to Ignore (Keeping the Repo Clean) ---
+# Ignore all Jupyter Notebooks (course labs)
+*.ipynb
+
+# Ignore all Course PDFs
+*.pdf
+
+# Ignore random word documents and screenshots
+*.docx
+Screenshot*.png
+
+# Ignore specific course syllabus text
+AI Syllabus.txt
